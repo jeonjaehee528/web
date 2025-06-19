@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+}
+header button{
+    float: right;
+}
+main{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    background-color: #aaa;
+    display: flex;
+    margin: 12% 0 0 12%;
+    padding: 20px;
+}
+main .box{
+    width: 80%;
+    height: 98%;
+    background-color: #bbb;
+    position: relative;
+}
+.pc{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+        display: flex;
+}
+.pc img{
+    width: 100%;
+}
+.pc .layout{
+    width: 75%;
+    height: auto;
+    background-color: #ddd;
+}
+.section{
+    width:20%;
+    margin: 10px;
+}
+.section .logo{
+    width:100%;
+    background-color: #bbb;
+    float:bottom;
+}
+.logo img{
+    width: 100%;
+}
+.mobile{
+    width: 60%;
+    height: 98%;
+    background-color: aliceblue;
+    display: none;
+}
+
+.box button{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-top: -40px;
+    border-radius: 20px;
+    border: 5px solid #fff;
+}
+
+.type{
+    height: 66%;
+    text-align: center;
+}
+.type li:hover{
+    height: 130px;
+    transition: all .4s;
+}
+.type li:hover .sub{
+    height: 40px;
+}
+.type li{
+    height: 60px;
+}
+.type li p{
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    line-height: 3;
+}
+.type li:nth-child(2n){
+    background-color: #ccc;
+}
+.type li:nth-child(2n-1){
+    background-color: #ddd;
+}
+.type .sub{
+    width: 120px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all .4s;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.sub a{
+    width: 10px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
